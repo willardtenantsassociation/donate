@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support the Willard Tenant Association</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <span class="badge">WILLARD TENANT ASSOCIATION</span>
+      <h1>Keep The Willard<br>Connected.</h1>
+      <p class="subtitle">The listserv, the advocacy, the community events — none of it happens without resident contributions.</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Social Proof Banner -->
+    <div class="social-proof">
+      The average contribution is <strong>$15</strong>. Every dollar goes directly to keeping the WTA running.
+    </div>
+
+    <!-- Amount Selection -->
+    <section class="section">
+      <h2 class="section-label">CHOOSE AN AMOUNT</h2>
+      <div class="amount-grid">
+        <button class="amount-btn" data-amount="10">$10</button>
+        <button class="amount-btn selected" data-amount="15">
+          <span class="popular-tag">POPULAR</span>
+          $15
+        </button>
+        <button class="amount-btn" data-amount="20">$20</button>
+      </div>
+    </section>
+
+    <!-- What Your Contribution Supports -->
+    <section class="section">
+      <h2 class="section-label">YOUR CONTRIBUTION SUPPORTS</h2>
+      <div class="support-list">
+        <div class="support-item">
+          <div>
+            <strong>The Resident Listserv</strong>
+            <p>Dog walkers, furniture sales, building alerts, and organizing when something needs to change.</p>
+          </div>
+        </div>
+        <div class="support-item">
+          <div>
+            <strong>Technology & Programming</strong>
+            <p>Zoom meetings, tenant rights webinars, and computer classes for seniors.</p>
+          </div>
+        </div>
+        <div class="support-item">
+          <div>
+            <strong>Rent & Fee Advocacy</strong>
+            <p>Monitoring rent increases, challenging unreasonable fees, and ensuring management follows Montgomery County rules.</p>
+          </div>
+        </div>
+        <div class="support-item">
+          <div>
+            <strong>Building Improvements</strong>
+            <p>Pest control, community spaces, laundry and trash rooms — tracked and pressed until resolved.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Annual Toggle -->
+    <div class="annual-toggle">
+      <div>
+        <strong>Make this annual</strong>
+        <p>Auto-renew once a year · cancel anytime</p>
+      </div>
+      <label class="toggle" aria-label="Toggle annual contribution">
+        <input type="checkbox" id="annual-toggle">
+        <span class="toggle-slider"></span>
+      </label>
+    </div>
+
+    <!-- CTA Button -->
+    <button class="cta-btn" id="give-btn">Give $15</button>
+
+    <!-- Trust Footer -->
+    <div class="trust-footer">
+      <p>&#128274; Secure payment · <span id="frequency-label">One-time contribution</span></p>
+    </div>
+
+    <!-- Closing Message -->
+    <div class="closing">
+      <p>The WTA is your neighbors — not management.<br>We run entirely on resident contributions.</p>
+    </div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
