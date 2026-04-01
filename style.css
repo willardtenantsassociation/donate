@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #f5f5f0;
+  background: #ffffff;
   color: #1a1a1a;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -56,13 +56,13 @@ body {
 
 /* ===== Social Proof ===== */
 .social-proof {
-  background: #fdf8ef;
-  border: 1px solid #e8dcc8;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
   border-radius: 12px;
   padding: 1rem 1.5rem;
   text-align: center;
   font-size: 0.95rem;
-  color: #5a4a32;
+  color: #555;
   margin-top: -1.5rem;
   position: relative;
   z-index: 1;
@@ -111,19 +111,6 @@ body {
   box-shadow: 0 0 0 1px #1a1a1a;
 }
 
-.popular-tag {
-  position: absolute;
-  top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #1a1a1a;
-  color: #fff;
-  font-size: 0.55rem;
-  letter-spacing: 0.08em;
-  padding: 2px 8px;
-  border-radius: 100px;
-  font-weight: 600;
-}
 
 /* ===== Custom Amount ===== */
 .custom-amount-wrapper {
@@ -215,11 +202,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fdf8ef;
-  border: 1px solid #e8dcc8;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
   border-radius: 12px;
   padding: 1rem 1.25rem;
-  margin-top: 2rem;
+  margin-top: 0.75rem;
 }
 
 .annual-toggle strong {
@@ -330,7 +317,4 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .popular-tag {
-    font-size: 0.5rem;
-  }
 }

@@ -1,6 +1,6 @@
 // ===== State (sync with browser-restored form values) =====
 let isAnnual = false;
-let selectedAmount = 15;
+let selectedAmount = 10;
 
 // ===== DOM Elements =====
 const amountButtons = document.querySelectorAll('.amount-btn');
