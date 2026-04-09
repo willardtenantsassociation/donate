@@ -31,7 +31,7 @@ annualToggle.addEventListener('change', () => {
 // ===== Update Button Text =====
 function updateButton() {
   const suffix = isAnnual ? '/year' : '';
-  giveBtn.textContent = `Give $${selectedAmount}${suffix}`;
+  giveBtn.textContent = `Donate $${selectedAmount}${suffix}`;
 }
 
 // ===== Reset toggle on page load (handles browser back-button) =====

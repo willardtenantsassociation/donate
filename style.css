@@ -111,6 +111,20 @@ body {
   box-shadow: 0 0 0 1px #1a1a1a;
 }
 
+.popular-tag {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
 
 /* ===== Custom Amount ===== */
 .custom-amount-wrapper {
